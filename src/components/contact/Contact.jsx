@@ -46,11 +46,13 @@ const Contact = () => {
                 </div>
                 </div>
             </div>
-            <div className="c-right"></div> 
+            <div className="c-right"> 
             <p className="c-desc">
              <b>Get in touch.</b> Always ready to work.
-             <h4> Available for: entry, intern, freelancing and  contract.</h4>      
-            </p>  
+             <h3>Available for:</h3>
+             <h4>  entry, intern, freelancing and  contract.</h4>      
+            </p> 
+           
             <form  ref={formRef} onSubmit={handleSubmit} >
                 <input style={{backgroundColor:darkMode &&  "#444"}} type="text" placeholder="Name" Name="user_name" />
                 <input style={{backgroundColor:darkMode &&  "#444"}}  type="text" placeholder="Subject" Name="user_Subject" />
@@ -58,8 +60,8 @@ const Contact = () => {
                 <textarea style={{backgroundColor:darkMode &&  "#444"}} rows="5" placeholder="Message" name="message"/>
                  <button>Submit</button>
                  {done && "   Email recieved.Thanks"}
-            </form>
-                
+            </form>                
+        </div>
         </div>
     </div>
   )

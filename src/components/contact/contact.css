@@ -48,11 +48,14 @@ width: 80%;
 
 .c-desc{
     font-weight: 200px;
+    margin-bottom: 30px
 }
 
 h4{
     font-style: italic;
     font-weight: 500;
+    position: absolute;
+   
 }
 
 form{
